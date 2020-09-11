@@ -18,26 +18,26 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EpisodeCell" id="73m-YJ-9D3" customClass="EpisodeTableViewCell" customModule="Rick_and_Morty" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="414" height="98.5"/>
+                                <rect key="frame" x="0.0" y="28" width="414" height="98"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="73m-YJ-9D3" id="3v4-Bu-L5U">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="98.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="98"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kC6-Ar-egx">
-                                            <rect key="frame" x="20" y="5" width="374" height="21.5"/>
+                                            <rect key="frame" x="20" y="5" width="374" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Episode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qw2-WG-JuN">
-                                            <rect key="frame" x="20" y="31.5" width="374" height="21"/>
+                                            <rect key="frame" x="20" y="31" width="374" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ln-SD-fv2">
-                                            <rect key="frame" x="20" y="57.5" width="374" height="21"/>
+                                            <rect key="frame" x="20" y="57" width="374" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -104,6 +104,7 @@
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ep" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ov5-zt-vZv">
                                         <rect key="frame" x="157" y="68" width="100" height="24"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="DetailEpisode"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="24" id="di8-Hu-kln"/>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="hEC-cn-osU"/>
@@ -203,6 +204,7 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dBt-Cn-cQg" userLabel="Name">
                                 <rect key="frame" x="147" y="91.5" width="120" height="21"/>
+                                <accessibility key="accessibilityConfiguration" identifier="cname"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="060-dJ-Ukb"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="ypJ-cP-1UO"/>
@@ -213,6 +215,7 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wa3-rj-R9N" userLabel="Gender">
                                 <rect key="frame" x="186.5" y="139.5" width="41.5" height="21"/>
+                                <accessibility key="accessibilityConfiguration" identifier="cgender"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="4Ew-BD-AUt"/>
                                 </constraints>
